@@ -13,6 +13,7 @@ namespace E2E.Employee.Domain.Models
         public String Name { get; set; }
         public String Surname { get; set; }
         public Gender Gender { get; set; }
+        public String PicturePath {  get; set; }
         public DateOnly DateBirth { get; set; }
         public DateOnly FirstDayDate { get; set; }
         public String ContractType { get; set; }

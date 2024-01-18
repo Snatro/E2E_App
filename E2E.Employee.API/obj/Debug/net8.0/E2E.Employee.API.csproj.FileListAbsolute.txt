@@ -138,3 +138,4 @@ C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.API\bi
 C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.API\bin\Debug\net8.0\E2E.Employee.Domain.dll
 C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.API\bin\Debug\net8.0\E2E.Employee.Application.pdb
 C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.API\bin\Debug\net8.0\E2E.Employee.Domain.pdb
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.API\obj\Debug\net8.0\E2E.Employee.API.sourcelink.json

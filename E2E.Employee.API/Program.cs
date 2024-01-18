@@ -1,4 +1,6 @@
+using E2E.Employee.Application;
 using E2E.Employee.Application.Context;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddApplication(builder.Configuration);
 builder.Services.AddCors(option =>
 {
     option.AddDefaultPolicy(builder =>
@@ -33,6 +36,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors();
 
 app.UseAuthorization();
 

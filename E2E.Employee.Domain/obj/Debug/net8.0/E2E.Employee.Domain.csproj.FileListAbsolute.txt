@@ -12,3 +12,4 @@ C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain
 C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\obj\Debug\net8.0\ref\E2E.Employee.Domain.dll
 C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\bin\Debug\net8.0\E2E.Employee.Domain.runtimeconfig.json
 C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\obj\Debug\net8.0\E2E.Employee.Domain.genruntimeconfig.cache
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\obj\Debug\net8.0\E2E.Employee.Domain.sourcelink.json
