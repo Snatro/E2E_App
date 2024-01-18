@@ -1,0 +1,6 @@
+@E2E.Employee.API_HostAddress = http://localhost:5271
+
+GET {{E2E.Employee.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

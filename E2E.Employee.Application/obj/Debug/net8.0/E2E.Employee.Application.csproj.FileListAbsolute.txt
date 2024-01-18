@@ -1,0 +1,17 @@
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\bin\Debug\net8.0\E2E.Employee.Application.deps.json
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\bin\Debug\net8.0\E2E.Employee.Application.dll
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\bin\Debug\net8.0\E2E.Employee.Application.pdb
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\bin\Debug\net8.0\E2E.Employee.Domain.dll
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\bin\Debug\net8.0\E2E.Employee.Domain.pdb
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\obj\Debug\net8.0\E2E.Employee.Application.csproj.AssemblyReference.cache
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\obj\Debug\net8.0\E2E.Employee.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\obj\Debug\net8.0\E2E.Employee.Application.AssemblyInfoInputs.cache
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\obj\Debug\net8.0\E2E.Employee.Application.AssemblyInfo.cs
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\obj\Debug\net8.0\E2E.Employee.Application.csproj.CoreCompileInputs.cache
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\obj\Debug\net8.0\E2E.Employee.Application.csproj.CopyComplete
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\obj\Debug\net8.0\E2E.Employee.Application.dll
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\obj\Debug\net8.0\refint\E2E.Employee.Application.dll
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\obj\Debug\net8.0\E2E.Employee.Application.pdb
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\obj\Debug\net8.0\ref\E2E.Employee.Application.dll
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\bin\Debug\net8.0\E2E.Employee.Application.runtimeconfig.json
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Application\obj\Debug\net8.0\E2E.Employee.Application.genruntimeconfig.cache

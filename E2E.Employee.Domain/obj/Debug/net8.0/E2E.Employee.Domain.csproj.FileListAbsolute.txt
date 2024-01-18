@@ -1,0 +1,14 @@
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\bin\Debug\net8.0\E2E.Employee.Domain.deps.json
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\bin\Debug\net8.0\E2E.Employee.Domain.dll
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\bin\Debug\net8.0\E2E.Employee.Domain.pdb
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\obj\Debug\net8.0\E2E.Employee.Domain.csproj.AssemblyReference.cache
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\obj\Debug\net8.0\E2E.Employee.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\obj\Debug\net8.0\E2E.Employee.Domain.AssemblyInfoInputs.cache
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\obj\Debug\net8.0\E2E.Employee.Domain.AssemblyInfo.cs
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\obj\Debug\net8.0\E2E.Employee.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\obj\Debug\net8.0\E2E.Employee.Domain.dll
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\obj\Debug\net8.0\refint\E2E.Employee.Domain.dll
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\obj\Debug\net8.0\E2E.Employee.Domain.pdb
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\obj\Debug\net8.0\ref\E2E.Employee.Domain.dll
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\bin\Debug\net8.0\E2E.Employee.Domain.runtimeconfig.json
+C:\Users\Santro\source\repos\E2E_APP\E2E_FINALE\E2E.Employee\E2E.Employee.Domain\obj\Debug\net8.0\E2E.Employee.Domain.genruntimeconfig.cache
