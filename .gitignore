@@ -1,0 +1,32 @@
+# Ignore Visual Studio Code
+.vscode/
+
+# Ignore Visual Studio files
+.vs/
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.scc
+[Tt]humbs.db
+[Dd]esktop.ini
+*.dbmdl
+*.dbproj.suo
+*.dbproj.user
+*.user
+*.suo
+*.userosscache
+*.suo
+*.suo
