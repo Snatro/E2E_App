@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0YhSPGsyWXwAaDKpKqy+eI1NEwHoH/o2jx+ce/GA/vGV68GNmGlmjSAmOOZgoCdbyII90Uxdi/EH+YjLbXKIHw==",
+  "dgSpecHash": "8LRpjJ6pFVxmtXYIQCvLZM14VWIxRnOVVOMDLcsCe1hRVuCeL7Nf3qrt/RFTHqz2k08aQVn6q+OSKMrV7g2y7g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Santro\\source\\repos\\E2E_APP\\E2E_FINALE\\E2E.Employee\\E2E.Employee.Domain\\E2E.Employee.Domain.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\Santro\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.1\\microsoft.entityframeworkcore.design.8.0.1.nupkg.sha512",
     "C:\\Users\\Santro\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.1\\microsoft.entityframeworkcore.relational.8.0.1.nupkg.sha512",
     "C:\\Users\\Santro\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.1\\microsoft.entityframeworkcore.sqlserver.8.0.1.nupkg.sha512",
+    "C:\\Users\\Santro\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.1\\microsoft.entityframeworkcore.tools.8.0.1.nupkg.sha512",
     "C:\\Users\\Santro\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Santro\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\Santro\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

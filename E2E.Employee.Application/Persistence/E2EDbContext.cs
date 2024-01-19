@@ -14,7 +14,7 @@ namespace E2E.Employee.Application.Persistence
 {
     public class E2EDbContext : DbContext
     {
-        public DbSet<Person>? Employees { get; set; }
+        public DbSet<Person>? Persons { get; set; }
         public DbSet<Gender>? Genders { get; set; }
         public E2EDbContext(DbContextOptions<E2EDbContext> options) : base(options)
         {
@@ -25,7 +25,7 @@ namespace E2E.Employee.Application.Persistence
 
             GenderSeeder(modelBuilder);
             base.OnModelCreating(modelBuilder);
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(PeopleConfiguration).Assembly);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(PersonConfiguration).Assembly);
         }
 
         private static void GenderSeeder(ModelBuilder modelBuilder)

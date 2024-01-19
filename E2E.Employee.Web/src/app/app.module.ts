@@ -9,6 +9,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { EmployeeListModule } from './employee-list/employee-list.module';
 import { FormComponent } from './form/form.component';
 import { FormModule } from './form/form.module';
+import { EmployeeInfoComponent } from './employee-info/employee-info.component';
+import { EmployeeInfoModule } from './employee-info/employee-info.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -18,6 +20,7 @@ import { FormModule } from './form/form.module';
     BrowserAnimationsModule,
     EmployeeListModule,
     FormModule,
+    EmployeeInfoModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

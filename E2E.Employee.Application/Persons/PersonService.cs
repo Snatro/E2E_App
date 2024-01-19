@@ -26,7 +26,7 @@ namespace E2E.Employee.Application.Persons
             {
                 Name = createPersonDTO.Name,
                 Surname = createPersonDTO.Surname,
-                Gender = createPersonDTO.Gender,
+                GenderId = createPersonDTO.Gender.Id,
                 PicturePath = createPersonDTO.PicturePath,
                 Department = createPersonDTO.Department,
                 DateBirth = createPersonDTO.DateBirth,
@@ -38,18 +38,61 @@ namespace E2E.Employee.Application.Persons
                 PaidFreeDays = createPersonDTO.PaidFreeDays,
             };
             dbContext.Add(person);
-            await dbContext.SaveChangesAsync();
+            try
+            {
+                // Code to save changes to the database using Entity Framework
+                await dbContext.SaveChangesAsync();
+            }
+            catch (DbUpdateException ex)
+            {
+                // Handle the DbUpdateException
+                foreach (var entry in ex.Entries)
+                {
+                    if (entry.State == EntityState.Added || entry.State == EntityState.Modified)
+                    {
+                        // The entry that caused the exception
+                        var entity = entry.Entity;
+
+                        // Handle or log the exception details
+                        Console.WriteLine($"Error saving entity of type {entity.GetType().Name}: {ex.Message}");
+                    }
+                }
+
+                // If there is an inner exception, examine it for more details
+                if (ex.InnerException != null)
+                {
+                    // Log or handle the inner exception
+                    Console.WriteLine($"Inner Exception: {ex.InnerException.Message}");
+                }
+            }
             return person.Id;
         }
 
         public async Task<Person> GetPersonById(int id, CancellationToken cancellationToken)
         {
-            return await dbContext.Employees.Where(person => person.Id == id).FirstOrDefaultAsync(cancellationToken);
+            return await dbContext.Persons.Where(p => p.Id == id).Include(p => p.Gender).
+                Select(p => new Person
+                {
+                    Id = p.Id,
+                   Name = p.Name,
+                   Surname = p.Surname,
+                   Gender = p.Gender,
+                   PicturePath = p.PicturePath,
+                   Department = p.Department,
+                   DateBirth = p.DateBirth,
+                   FirstDayDate = p.FirstDayDate,
+                   ContractType = p.ContractType,
+                   ContractDueDate = p.ContractDueDate,
+                   PaidFreeDays = p.PaidFreeDays,
+                   VacationDays = p.VacationDays,
+                   FreeDays = p.FreeDays
+
+                }).FirstOrDefaultAsync(cancellationToken);
         }
 
         public async Task<IReadOnlyList<PersonDTO>> GetPersons(CancellationToken cancellationToken)
         {
-            return await dbContext.Employees.AsNoTracking().Select(person => new PersonDTO
+            return await dbContext.Persons.AsNoTracking().Select(person => new PersonDTO
             {
                 Id = person.Id,
                 Name = person.Name,
@@ -61,7 +104,7 @@ namespace E2E.Employee.Application.Persons
 
         public async Task UpdatePerson(Person updatePersonDTO, CancellationToken cancellationToken)
         {
-            Person person = await dbContext.Employees.FindAsync(new object[] { updatePersonDTO.Id }, cancellationToken: cancellationToken);
+            Person person = await dbContext.Persons.FindAsync(new object[] { updatePersonDTO.Id }, cancellationToken: cancellationToken);
 
             if (person != null)
             {

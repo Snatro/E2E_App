@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace E2E.Employee.Application.Persistence.Configuration
 {
-    public class PeopleConfiguration : IEntityTypeConfiguration<Person>
+    public class PersonConfiguration : IEntityTypeConfiguration<Person>
     {
         public void Configure(EntityTypeBuilder<Person> builder)
         {

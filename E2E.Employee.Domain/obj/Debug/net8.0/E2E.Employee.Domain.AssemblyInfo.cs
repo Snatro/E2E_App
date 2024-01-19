@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("E2E.Employee.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc50e6e355f519790baf5f4d3fb78e10939f9db3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcee8493b2336035e18043278d56683724cb2c71")]
 [assembly: System.Reflection.AssemblyProductAttribute("E2E.Employee.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("E2E.Employee.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

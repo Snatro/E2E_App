@@ -22,7 +22,7 @@ namespace E2E.Employee.API.Controllers
         }
 
         [HttpGet]
-        [Route("person")]
+        [Route("person/{id}")]
         public async Task<Person> GetPersonById(int id, CancellationToken cancellationToken)
         {
             return await this._personService.GetPersonById(id, cancellationToken);
