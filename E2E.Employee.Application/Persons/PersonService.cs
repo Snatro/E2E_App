@@ -1,4 +1,4 @@
-﻿using E2E.Employee.Application.Context;
+﻿using E2E.Employee.Application.Persistence;
 using E2E.Employee.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace E2E.Employee.Application.Employees
+namespace E2E.Employee.Application.Persons
 {
     public class PersonService : IPersonService
     {
@@ -19,7 +19,7 @@ namespace E2E.Employee.Application.Employees
             this.dbContext = dbContext;
         }
 
-        public async Task<int> CreatePerson(Person createPersonDTO, CancellationToken cancellationToken)
+        public async Task<int> CreatePerson(CreatePersonDTO createPersonDTO, CancellationToken cancellationToken)
         {
             ArgumentNullException.ThrowIfNull(createPersonDTO, nameof(createPersonDTO));
             Person person = new Person()
@@ -51,6 +51,7 @@ namespace E2E.Employee.Application.Employees
         {
             return await dbContext.Employees.AsNoTracking().Select(person => new PersonDTO
             {
+                Id = person.Id,
                 Name = person.Name,
                 Surname = person.Surname,
                 PicturePath = person.PicturePath,

@@ -4,6 +4,11 @@ import { MatTableModule } from '@angular/material/table';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+import { MatButtonModule } from '@angular/material/button';
+import { EmployeeListModule } from './employee-list/employee-list.module';
+import { FormComponent } from './form/form.component';
+import { FormModule } from './form/form.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -11,7 +16,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatTableModule,
+    EmployeeListModule,
+    FormModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

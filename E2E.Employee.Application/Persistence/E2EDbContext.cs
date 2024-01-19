@@ -7,9 +7,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using E2E.Employee.Domain.Models;
+using E2E.Employee.Application.Persistence.Configuration;
 
 
-namespace E2E.Employee.Application.Context
+namespace E2E.Employee.Application.Persistence
 {
     public class E2EDbContext : DbContext
     {
@@ -24,6 +25,7 @@ namespace E2E.Employee.Application.Context
 
             GenderSeeder(modelBuilder);
             base.OnModelCreating(modelBuilder);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(PeopleConfiguration).Assembly);
         }
 
         private static void GenderSeeder(ModelBuilder modelBuilder)

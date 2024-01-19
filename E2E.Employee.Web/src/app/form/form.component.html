@@ -1,0 +1,124 @@
+<div>
+  <form [formGroup]="personForm" class="vertical-form" (submit)="onSubmit()">
+    <div class="flex flex-row space-between">
+      <div>
+        <mat-form-field>
+          <mat-label>Name</mat-label>
+          <input matInput required formControlName="name" />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Surname</mat-label>
+          <input matInput required formControlName="surname" />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Gender</mat-label>
+          <mat-select formControlName="gender">
+            <mat-option *ngFor="let gender of genders" [value]="gender">
+              {{ gender.name }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Birth date</mat-label>
+          <input
+            matInput
+            required
+            formControlName="dateBirth"
+            [matDatepicker]="pickerBirth"
+          />
+          <mat-hint>MM/DD/YYYY</mat-hint>
+          <mat-datepicker-toggle
+            matIconSuffix
+            [for]="pickerBirth"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #pickerBirth></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>First day date</mat-label>
+          <input
+            matInput
+            required
+            formControlName="firstDayDate"
+            [matDatepicker]="pickerfirstDay"
+          />
+          <mat-hint>MM/DD/YYYY</mat-hint>
+          <mat-datepicker-toggle
+            matIconSuffix
+            [for]="pickerfirstDay"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #pickerfirstDay></mat-datepicker>
+        </mat-form-field>
+
+        <div class="form-group">
+          <label for="image">Image:</label>
+          <input type="file" id="image" (change)="onFileSelected($event)" />
+        </div>
+      </div>
+      <div>
+        <mat-form-field>
+          <mat-label>Contract type</mat-label>
+          <input matInput required formControlName="contractType" />
+          <mat-hint align="end">Određeno / Neodređeno</mat-hint>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Contract due date</mat-label>
+          <input
+            matInput
+            formControlName="contractDueDate"
+            [matDatepicker]="pickerContractDueDate"
+          />
+          <mat-hint>MM/DD/YYYY</mat-hint>
+          <mat-datepicker-toggle
+            matIconSuffix
+            [for]="pickerContractDueDate"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #pickerContractDueDate></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Department</mat-label>
+          <input matInput required formControlName="department" />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Paid vacation days</mat-label>
+          <input
+            type="number"
+            matInput
+            required
+            formControlName="vacationDays"
+          />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Paid free days</mat-label>
+          <input
+            type="number"
+            matInput
+            required
+            formControlName="paidFreeDays"
+          />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Free days</mat-label>
+          <input type="number" matInput required formControlName="freeDays" />
+        </mat-form-field>
+      </div>
+    </div>
+    <div>
+      <button
+        mat-raised-button
+        color="primary"
+        class="mt-4 ml-4"
+        (click)="onAdd()"
+      >
+        Save
+      </button>
+      <button
+        mat-raised-button
+        color="primary"
+        class="mt-4 ml-4"
+        mat-dialog-close=""
+      >
+        Close
+      </button>
+    </div>
+  </form>
+</div>

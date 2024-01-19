@@ -1,6 +1,6 @@
-﻿using E2E.Employee.Application.Context;
-using E2E.Employee.Application.Employees;
-using E2E.Employee.Application.Genders;
+﻿using E2E.Employee.Application.Genders;
+using E2E.Employee.Application.Persistence;
+using E2E.Employee.Application.Persons;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

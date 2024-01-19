@@ -16,7 +16,7 @@ namespace E2E.Employee.API.Controllers
         }
 
         [HttpGet]
-        [Route("GetGenders")]
+        [Route("genders")]
         public async Task<IReadOnlyList<Gender>> GetGenders(CancellationToken cancellationToken)
         {
             return await this.genderService.GetGenders(cancellationToken);

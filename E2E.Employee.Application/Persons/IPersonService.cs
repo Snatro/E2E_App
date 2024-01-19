@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace E2E.Employee.Application.Employees
+namespace E2E.Employee.Application.Persons
 {
     public interface IPersonService
     {
         public Task<IReadOnlyList<PersonDTO>> GetPersons(CancellationToken cancellationToken);
         public Task<Person> GetPersonById(int id, CancellationToken cancellationToken);
-        public Task<int> CreatePerson(Person createPersonDTO, CancellationToken cancellationToken);
+        public Task<int> CreatePerson(CreatePersonDTO createPersonDTO, CancellationToken cancellationToken);
         public Task UpdatePerson(Person updatePersonDTO, CancellationToken cancellationToken);
     }
 }
